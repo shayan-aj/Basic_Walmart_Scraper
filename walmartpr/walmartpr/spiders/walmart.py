@@ -2,7 +2,7 @@ import scrapy
 from scrapy_selenium import SeleniumRequest
 from urllib.parse import urlencode
 
-API_KEY = '0e806f13-864d-479a-b8c8-eff82d186d03'
+API_KEY = 'put your API key here'
 
 def get_proxy_url(url):
     payload = {'api_key': API_KEY, 'url': url}
